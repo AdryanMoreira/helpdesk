@@ -109,5 +109,7 @@
       }
     }
   },
-  "defaultProject": "helpdesk"
+  "cli": {
+    "analytics": "4e769816-3830-4c8d-95cb-b3074537fde8"
+  }
 }

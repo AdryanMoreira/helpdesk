@@ -1,19 +1,19 @@
-.conteiner{
+.container {
     width: 35rem;
     margin: auto;
-    padding: 1rem, 1rem, 3em, 1rem;
-    border-radius: 6rem;
-}
-
-.full-width{
+    padding: 1rem;
+    border-radius: .6rem;
+ }
+ 
+ .fullWidth {
     width: 100%;
-}
-
-h1{
+ }
+ 
+ h1, p {
     text-align: center;
-}
-
-img {
+ }
+ 
+ img {
     height: 12rem;
     margin: auto;
  }

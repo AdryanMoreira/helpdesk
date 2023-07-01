@@ -22,10 +22,10 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSelectModule } from '@angular/material/select';
 import { MatTableModule } from '@angular/material/table';
 import { MatRadioModule } from '@angular/material/radio';
-import { MatInputModule } from '@angular/material/input';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { MatCardModule } from '@angular/material/card';
+import {MatInputModule} from '@angular/material/input';
 
 //Componentes do projeto
 import { NavComponent } from './components/nav/nav.component';
@@ -39,6 +39,9 @@ import { TecnicoCreateComponent } from './components/tecnico/tecnico-create/tecn
 import { NgxMaskDirective, NgxMaskPipe, provideNgxMask } from 'ngx-mask';
 import { TecnicoUpdateComponent } from './components/tecnico/tecnico-update/tecnico-update.component';
 import { TecnicoDeleteComponent } from './components/tecnico/tecnico-delete/tecnico-delete.component';
+import { ClienteCreateComponent } from './components/cliente/cliente-create/cliente-create.component';
+import { ClienteUpdateComponent } from './components/cliente/cliente-update/cliente-update.component';
+import { ClienteDeleteComponent } from './components/cliente/cliente-delete/cliente-delete.component';
 
 @NgModule({
   declarations: [
@@ -50,7 +53,10 @@ import { TecnicoDeleteComponent } from './components/tecnico/tecnico-delete/tecn
     LoginComponent,
     TecnicoCreateComponent,
     TecnicoUpdateComponent,
-    TecnicoDeleteComponent
+    TecnicoDeleteComponent,
+    ClienteCreateComponent,
+    ClienteUpdateComponent,
+    ClienteDeleteComponent
   ],
   imports: [
     BrowserModule,
@@ -63,6 +69,7 @@ import { TecnicoDeleteComponent } from './components/tecnico/tecnico-delete/tecn
     HttpClientModule,
     // Angular Material
     MatFormFieldModule,
+    
     MatPaginatorModule,
     MatCheckboxModule,
     MatSnackBarModule,
@@ -70,8 +77,8 @@ import { TecnicoDeleteComponent } from './components/tecnico/tecnico-delete/tecn
     MatSidenavModule,
     MatButtonModule,
     MatSelectModule,
-    MatInputModule,
     MatRadioModule,
+    MatInputModule,
     MatTableModule,
     MatIconModule,
     MatListModule,

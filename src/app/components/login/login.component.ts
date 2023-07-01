@@ -29,7 +29,8 @@ export class LoginComponent implements OnInit {
 
   logar() {
     this.service.authenticate(this.creds).subscribe(resposta => {
-      this.toast.info(resposta.headers.get('Authorization'))
+      //this.toast.info(resposta.headers.get('Authorization'))
+      this.toast.info('Login realizado co sucesso.')
       this.service.successfulLogin(resposta.headers.get('Authorization').substring(7))
       this.router.navigate([''])
     }, () => {

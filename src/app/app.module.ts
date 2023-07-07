@@ -42,6 +42,7 @@ import { TecnicoDeleteComponent } from './components/tecnico/tecnico-delete/tecn
 import { ClienteCreateComponent } from './components/cliente/cliente-create/cliente-create.component';
 import { ClienteUpdateComponent } from './components/cliente/cliente-update/cliente-update.component';
 import { ClienteDeleteComponent } from './components/cliente/cliente-delete/cliente-delete.component';
+import { ClienteListComponent } from './components/cliente/cliente-list/cliente-list.component';
 
 @NgModule({
   declarations: [
@@ -56,7 +57,8 @@ import { ClienteDeleteComponent } from './components/cliente/cliente-delete/clie
     TecnicoDeleteComponent,
     ClienteCreateComponent,
     ClienteUpdateComponent,
-    ClienteDeleteComponent
+    ClienteDeleteComponent,
+    ClienteListComponent
   ],
   imports: [
     BrowserModule,

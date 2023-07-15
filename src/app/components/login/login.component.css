@@ -31,7 +31,10 @@ img {
 
 button {
     border-radius: 1rem;
+}
 
+mat-icon {
+   opacity: .6;
 }
 
 mat-icon {
